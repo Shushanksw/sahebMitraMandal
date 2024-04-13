@@ -284,6 +284,13 @@ ol {
 	display: inline-block;
 }
 
+@media screen and (max-width: 726px) {
+
+	#header .header__logo img {
+	  max-height: 80px;
+	}
+  }
+
 .header__nav {
 	text-align: right;
 }
